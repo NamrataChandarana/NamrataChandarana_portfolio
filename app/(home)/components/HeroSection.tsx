@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import '../../globals.css'
 // import { HoverBorderGradient } from "../components/ui/hover-border-gradient";
@@ -5,6 +6,13 @@ import { Button } from "../components/ui/moving-border";
 import Title from "./ui/Title";
 
 export default function HeroSection() {
+  const scrolltoHash = function (element_id: string) {
+    const element = document.getElementById(element_id)
+    element?.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  }
+  function scroll(){
+    scrolltoHash('contact')
+  }
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 text-white text-center lg:space-x-52 lg:text-left ">
           <div className="lg:ml-20 ml-0 order-last lg:order-first ">
@@ -17,8 +25,8 @@ export default function HeroSection() {
             <div className="text-[1.20rem] lg:text-md my-10 mx-5 sm:w-96 sm:mx-auto lg:mx-0"> 
               <p> Based in India, I'm a Fullstack developer passionate about building a modern web application that users love.</p>
             </div>
-            <div className=" ">
-              <Link href={"mailto:namratachandarana20@gmail.com"} >
+            <div className="" onClick={scroll}>
+              <Link href={"mailto:namratachandarana20@gmail.com"}  >
                 <Title title="Contact Me📬" />
               </Link> 
             </div>

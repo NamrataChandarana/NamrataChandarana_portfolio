@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import Link from "next/link";
-import { request } from "http";
 
 interface ProjectType {
   name: string,
@@ -19,8 +18,8 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({project}) => {
   return (
-    <CardContainer className="inter-var">
-        <CardBody className="bg-slate-800 relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[18rem] sm:w-[24rem] h-auto rounded-xl p-6 border  ">
+    <CardContainer className="inter-var ">
+        <CardBody className="bg-slate-800 relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[18rem] sm:w-[24rem] h-auto rounded-xl p-6 border min-h-[35rem] ">
           <CardItem translateZ="100" className="w-full mt-4">
           <Image
             src={project.image}

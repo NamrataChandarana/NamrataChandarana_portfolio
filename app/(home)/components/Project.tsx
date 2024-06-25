@@ -18,15 +18,15 @@ function Project() {
   const projects: ProjectType[] = [
     {
         name: "Wall clock zone",
-        description: "A modern wall clock with a futuristic design sdfdsf",
-        subDesc: "Tech Stack: React, Redux, TaiwindCss, HonoJs, clodfalre Workers, Postgress , prisma ",
-        image:'/',
+        description: "This project aims to create a digital platform connecting wall clock suppliers directly with buyers and facilitating real-time communication between them.",
+        subDesc: "Tech Stack: React, Redux, ChakraUi, Socket.io, Nodejs, ExpressJs, Mongodb",
+        image: require('/public/WallClockZone.png'),
         liveLink: '/',
         githubLink:'https://github.com/NamrataChandarana/wallclockzone-backend'
     },
     {
         name: "DevTales",
-        description: "A blog posting app similar to Medium, not that fancy yet. enabling users to create and view blogs. The main features lines in the deployment as it is deployed serverless.",
+        description: "A blog posting app that enabling users to create and view blogs. The main features lines in the deployment as it is deployed serverless.",
         subDesc: "Tech Stack: React, Redux, TaiwindCss, Hono, clodfalre Workers, Postgress , prisma ",
         image: require('/public/DevTales.png'),
         liveLink: '/',
@@ -34,9 +34,9 @@ function Project() {
     },
     {
         name: "Paytm Wallet clone",
-        description: "A modern wall clock with a futuristic design sdfdsf",
-        subDesc: "Tech Stack: React, Redux, TaiwindCss, HonoJs, clodfalre Workers, Postgress , prisma ",
-        image: '/',
+        description: "This project aims to develop a basic Paytm wallet clone where users can create accounts and transfer money to each other.",
+        subDesc: "Tech Stack: React, Redux, TaiwindCss, Nodejs, ExpressJs, Mongodb",
+        image: require('/public/patmyClone.png'),
         liveLink: '/',
         githubLink:'https://github.com/NamrataChandarana/paytm-Wallet-clone'
     },
