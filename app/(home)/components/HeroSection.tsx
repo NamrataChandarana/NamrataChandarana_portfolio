@@ -19,11 +19,11 @@ export default function HeroSection() {
             <div>
               <h1 className="font-bold text-4xl mt-20 md:mt-10 lg:text-6xl">
                 Namaste!🙏<br />
-                <span className="underline underline-offset-8 decoration-indigo-500">I&aposm Namrata.</span>
+                <span className="underline underline-offset-8 decoration-indigo-500">I&apos;m Namrata.</span>
               </h1>
             </div>
             <div className="text-[1.20rem] lg:text-md my-10 mx-5 sm:w-96 sm:mx-auto lg:mx-0"> 
-              <p> Based in India, I&aposm a Fullstack developer passionate about building a modern web application that users love.</p>
+              <p> Based in India, I&apos;m a Fullstack developer passionate about building a modern web application that users love.</p>
             </div>
             <div className="" onClick={scroll}>
               <Link href={"mailto:namratachandarana20@gmail.com"}  >
