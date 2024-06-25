@@ -48,8 +48,8 @@ function Project() {
         </div>
         <div className='flex gap-3 justify-center flex-wrap md:flex-wrap mx-10'>
             {
-                projects.map((project: ProjectType) => (
-                    <ProjectCard project={project} />
+                projects.map((project: ProjectType,index) => (
+                    <ProjectCard project={project} key={index}/>
                 ))
             }
         
