@@ -26,9 +26,7 @@ export default function HeroSection() {
               <p> Based in India, I&apos;m a Fullstack developer passionate about building a modern web application that users love.</p>
             </div>
             <div className="" onClick={scroll}>
-              <Link href={"mailto:namratachandarana20@gmail.com"}  >
-                <Title title="Contact Me📬" />
-              </Link> 
+              <Title title="Contact Me📬" />
             </div>
           </div>
           <div className="my-10 mx-auto ">
