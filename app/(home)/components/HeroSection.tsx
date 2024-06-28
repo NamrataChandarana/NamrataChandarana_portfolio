@@ -47,7 +47,7 @@ export default function HeroSection() {
                 borderRadius=".5rem"
                 className="bg-slate-900 text-white dark:border-slate-800 rounded-sm h-10 p-5 z-10 "
                 >
-                  <Link href="" download="">Download CV ⬇️</Link>
+                  <a href="/Namrata_Chandarana.pdf" download="Namrata_Chandarana.pdf">Download CV ⬇️</a>
               </Button>
             </div>
           </div>
