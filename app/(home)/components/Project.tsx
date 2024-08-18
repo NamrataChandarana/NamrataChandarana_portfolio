@@ -33,12 +33,12 @@ function Project() {
         githubLink:'https://github.com/NamrataChandarana/DevTales'
     },
     {
-        name: "Paytm Wallet clone",
-        description: "This project aims to develop a basic Paytm wallet clone where users can create accounts and transfer money to each other.",
-        subDesc: "Tech Stack: React, Redux, TaiwindCss, Nodejs, ExpressJs, Mongodb",
-        image: require('/public/patmyClone.png'),
-        liveLink: 'https://moneytransactionsystem.namratachandarana.in/',
-        githubLink:'https://github.com/NamrataChandarana/paytm-Wallet-clone'
+        name: "FoodAdda",
+        description: "Developed a responsive food ordering platform using React, Redux Toolkit, parcel, babel and TailwindCSS, featuring a config-driven UI, real-time data integration from Swiggy's API.",
+        subDesc: "Tech Stack: Html, TaiwindCss, React, Redux, parcel, babel",
+        image: require('/public/FoodAdda.png'),
+        liveLink: 'https://foodadda.namratachandarana.in/',
+        githubLink:'https://github.com/NamrataChandarana/FoodAdda'
     },
   ]
   return (
